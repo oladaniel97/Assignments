@@ -1,0 +1,160 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color:#f6f4f4;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  color:#49495f;
+  
+}
+/* .thb{display: table;} */
+
+* {
+    margin: 0;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+/* settings for navigation bar */
+.mynav{
+    background-color: rgb(5, 11, 65);
+    overflow: hidden;
+    position: fixed;
+  width: 100%;
+}
+
+.mynav a{
+    float: left;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.mynav a :hover{
+    background-color: brown;
+    color: blanchedalmond;
+}
+
+/* .img{
+    border-radius: 5px;
+    border-style: none; */
+/* } */
+
+
+.top{
+/*   color:#033503; */
+  text-align:center;
+  padding:50px 0px 0px 0px;
+  font-family: "Montserrat" sans-serif
+}
+
+h1{
+  color:#050748;
+  text-size:60px;
+}
+
+.body, ul,li{
+  padding-left:25px;
+  padding-top:5px
+}
+
+/* creating tables in css */
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+  height:200px;
+  justify-content: space-around;
+/*   padding:10px; */
+}
+
+.item1{grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.item2{grid-column-start: 2;
+    grid-column-end: 3;
+      }
+
+.container2{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 200px;
+  justify-content: left;
+}
+
+.container3{
+  display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 400px;
+  justify-content: left;
+  padding:40px;
+}
+
+/* to create a rounded image */
+.mypics{border-radius:50%;
+        width: 10%;
+        height:10%;
+       }
+
+
+.cont{
+  justify-content: space-between;
+  text-align: left;
+  padding: 40px 0px 0px 0px;
+}
+form{
+  position: absolute;
+  background-color: #b3b3b3;
+  color: black;
+  box-shadow:5px 5px 5px 5px #ebeaea;
+  max-width: 400px;
+  padding: 20px;border-radius: 10px;
+  margin-top: 40px
+  ;
+/*   display: flex;
+  justify-content: center; */
+}
+
+input, textarea{
+  width:100%;
+  padding:10px;
+  border-radius:5px none;
+}
+
+.formed{
+   display: flex;
+  justify-content: center;
+  
+}
+
+footer{
+  background-color: #b3b3b3;
+  color: black;
+text-align: center;
+  padding: 10px;
+height: 30px}
+
+tr , td{
+  padding:3px
+}
+
+.flex{
+  display:flex;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  color: black;
+  margin:100px;
+}
+/* #top{
+  text-align:center;
+  padding:80px 0px 0px 0px;
+  font-family:sans-serif */
+
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}

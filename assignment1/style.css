@@ -1,0 +1,132 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* make the main body to be in the middle of the page  */
+/* body{
+  padding:15px;
+  width:50%;
+  margin-left:300px;
+  margin-bottom:50px;
+  border: none;
+  background-color: #e0e0e0;
+  
+} */
+
+
+/* style the selected input */
+input[type=text],input[type=number],input[type=email],input[type=password],input[type=date],select,input[type=submit]{
+  width:100%;
+  padding:5px;
+   margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #4d4c4c;
+  color:ghostwhite;
+  border-radius:7px;
+}
+
+#submit{
+  background-color:#11115f;
+  font-size:20px;
+}
+
+#submit:hover{
+  background-color:#2e7f51;
+  cursor:pointer;
+}
+
+a{
+  text-decoration:none;
+}
+
+
+.neo{
+  margin:auto;
+/*   margin-left:30%; */
+  margin-bottom:50px;
+  margin-top: 50px;
+  width:40%;
+  padding:15px;
+/*   using neumorphism to style the form */
+  border-radius: 50px;
+background: #e0e0e0;
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+
+body{
+  background: #e0e0e0;
+  font-family: "Roboto", sans-serif;
+}

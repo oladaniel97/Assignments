@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>login page</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <form action="success.html" class="neo">
+      <div>
+        <section><h1>LOGIN PAGE</h1></section>
+        <hr />
+        <label for="email">Email :</label>
+        <input
+          type="email"
+          name="email"
+          id=""
+          placeholder="daniel@mail.com"
+          required
+        />
+        <label for="psw">Password :</label>
+        <input
+          type="password"
+          name="psw"
+          id=""
+          pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+          title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+          required
+        />
+
+        <input type="submit" value="sign in" id="submit" />
+        <hr />
+
+        <input type="checkbox" name="remember" id="" />
+        <label for="remember">Remember me </label>
+        <span class="as"> Forget <a href="password.html">password</a> </span>
+        <p>
+          You do not have an account?<a href="index.html" class="ass"
+            >Sign up</a
+          >
+        </p>
+      </div>
+    </form>
+  </body>
+</html>
