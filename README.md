@@ -1,1 +1,1 @@
-# zuri-assignments
+# assignments
