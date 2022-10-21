@@ -8,7 +8,7 @@ html, body {
   color:#49495f;
   
 }
-/* .thb{display: table;} */
+
 
 * {
     margin: 0;
@@ -36,11 +36,6 @@ html, body {
     color: blanchedalmond;
 }
 
-/* .img{
-    border-radius: 5px;
-    border-style: none; */
-/* } */
-
 
 .top{
 /*   color:#033503; */
@@ -51,7 +46,7 @@ html, body {
 
 h1{
   color:#050748;
-  text-size:60px;
+  font-size:60px;
 }
 
 .body, ul,li{
@@ -62,11 +57,9 @@ h1{
 /* creating tables in css */
 .container{
     display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 10px;
+    grid-template-columns: 0.5fr 0.5fr;
+    gap: 10px;
   height:200px;
-  justify-content: space-around;
-/*   padding:10px; */
 }
 
 .item1{grid-column-start: 1;
@@ -77,20 +70,6 @@ h1{
     grid-column-end: 3;
       }
 
-.container2{
-    display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 200px;
-  justify-content: left;
-}
-
-.container3{
-  display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 400px;
-  justify-content: left;
-  padding:40px;
-}
 
 /* to create a rounded image */
 .mypics{border-radius:50%;
@@ -98,12 +77,6 @@ h1{
         height:10%;
        }
 
-
-.cont{
-  justify-content: space-between;
-  text-align: left;
-  padding: 40px 0px 0px 0px;
-}
 form{
   position: absolute;
   background-color: #b3b3b3;
@@ -113,8 +86,6 @@ form{
   padding: 20px;border-radius: 10px;
   margin-top: 40px
   ;
-/*   display: flex;
-  justify-content: center; */
 }
 
 input, textarea{
